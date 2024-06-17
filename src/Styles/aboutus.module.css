@@ -1,0 +1,121 @@
+.aboutSection 
+{
+  padding: 4rem 2rem;
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutHeading 
+{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #444;
+  text-align: center;
+  width: 100%;
+}
+
+.aboutContent 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.aboutText 
+{
+  flex: 1 1 60%;
+  color: #333;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.aboutText p 
+{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #666;
+  text-align: justify;
+}
+
+.aboutLogo 
+{
+  flex: 1 1 30%;
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage 
+{
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 992px) 
+{
+  .aboutSection 
+  {
+    max-width: 70%;
+  }
+
+  .aboutHeading 
+  {
+    font-size: 3rem;
+  }
+
+  .aboutText p 
+  {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .aboutSection 
+  {
+    max-width: 80%;
+  }
+
+  .aboutHeading 
+  {
+    font-size: 2.8rem;
+  }
+
+  .aboutText p 
+  {
+    font-size: 1.3rem;
+  }
+
+  .aboutLogo 
+  {
+    max-width: 40%;
+  }
+}
+@media (max-width: 767px) 
+{
+  .aboutContent 
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutText 
+  {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .aboutLogo 
+  {
+    max-width: 60%;
+  }
+}

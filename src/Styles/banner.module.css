@@ -1,0 +1,109 @@
+.bannerItem 
+{
+  margin: auto;
+  width: 90%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bannerItem img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heading 
+{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.desc 
+{
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.cta 
+{
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.cta a 
+{
+  color: white;
+  text-decoration: none;
+}
+
+.cta:hover 
+{
+  background-color: white;
+}
+
+.cta:hover a 
+{
+  color: #000;
+}
+
+@media (min-width: 992px) 
+{
+  .heading 
+  {
+    font-size: 3rem;
+  }
+
+  .desc 
+  {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .heading 
+  {
+    font-size: 2.5rem;
+  }
+
+  .desc 
+  {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767px) 
+{
+  .heading 
+  {
+    font-size: 2rem;
+  }
+
+  .desc 
+  {
+    font-size: 1rem;
+  }
+
+  .cta 
+  {
+    top: 40%;
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
+}
